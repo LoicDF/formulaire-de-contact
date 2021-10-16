@@ -1,0 +1,103 @@
+body{
+    background: #1690A7;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    flex-direction: column;
+}
+
+*{
+    /* Font-family: Helvetica Neue, Helvetica, Arial, sans-serif; */
+    Font-family: Copperplate, Copperplate Gothic Light, fantasy, sans-serif;
+    box-sizing: border-box;
+}
+
+form{
+    width: 500px;
+    border: 3px solid #ccc;
+    padding: 30px;
+    background: #fff;
+    border-radius:15px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+input{
+    display: block;
+    border: 3px solid #ccc;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius:10px;
+}
+
+label{
+    color: rgb(179, 9, 9);
+    font-size: 18px;
+    padding: 10px;
+}
+
+button{
+    float: right;
+    background: #555;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius:10px;
+    margin-right: 10px;
+    border: none;
+    transition: 0.3s ease;
+}
+
+button:hover{
+    opacity: 0.7;
+    transition: 0.3s ease;
+}
+.error{
+    background: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+    border-radius:10px;
+    margin: 20px auto;
+}
+
+.homePage{
+    text-align: center;
+    color: #fff;
+    border: 3px solid #ccc;
+    box-sizing:2px;
+    width: 60%;
+    height: auto;
+    box-shadow: 0px 0px 30px;
+    transition: 0.5s ease-in;
+}
+.homePage:hover{
+    background:black;
+    color: rgb(234, 0, 255);
+    transform: scale(1.1);
+    box-shadow: rgba(234, 0, 255, 0.7)0px 0px 30px;
+    transition: 0.5s ease-out;
+}
+
+a{
+    float: right;
+    background: #555;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius:10px;
+    margin-right: 10px;
+    border: none;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+a:hover{
+    opacity: 0.7;
+    box-shadow: 0px 0px 30px;
+    transition: 0.3s ease;
+}
+
